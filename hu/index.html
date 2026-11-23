@@ -293,7 +293,7 @@
                         
 <div class="flex flex-col items-start gap-[18px] px-1 py-6" role="status">
     <span class="flex size-16 items-center justify-center rounded-[20px] bg-success-tint text-success-strong"><svg class="size-[30px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg></span>
-    <h3 class="m-0 text-[28px] tracking-tight" tabindex="-1" data-demo-form-target="heading">Köszönjük, megkaptuk!</h3>
+    <h3 class="m-0 text-[28px] tracking-tight" tabindex="-1" style="outline: none" data-demo-form-target="heading">Köszönjük, megkaptuk!</h3>
     <p class="m-0 max-w-[460px] text-ink-soft">
         Átnézzük az adatokat (<span data-demo-form-target="type"></span>, <span data-demo-form-target="rooms"></span> helyiség), és hamarosan küldjük a jóváhagyott árajánlatot. Közben akár időpontot is foglalhat.
     </p>
@@ -374,7 +374,7 @@
                     </div>
     </div>
 </section>
-        
+            
 <section id="booking" class="mx-auto max-w-[1200px] px-6 py-28">
     <div class="reveal flex flex-wrap items-end justify-between gap-6 mb-10">
     <div class="flex max-w-[680px] flex-col gap-3.5">
@@ -390,7 +390,7 @@
 <div class="reveal flex flex-wrap items-center gap-5 rounded-[28px] bg-ink p-8 text-white" role="status">
     <span class="flex size-14 flex-none items-center justify-center rounded-full bg-success"><svg class="size-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg></span>
     <div class="flex min-w-0 flex-1 flex-col gap-1">
-        <strong class="font-display text-2xl" tabindex="-1" data-demo-form-target="heading">Foglalás rögzítve.</strong>
+        <strong class="font-display text-2xl" tabindex="-1" style="outline: none" data-demo-form-target="heading">Foglalás rögzítve.</strong>
         <span class="text-white/80">
             <span data-demo-form-target="day"></span>, <span data-demo-form-target="time"></span> – a visszaigazolást e-mailben elküldtük.
         </span>
@@ -398,7 +398,7 @@
             <button type="button" class="btn btn-light" data-action="demo-form#reset">Újabb időpont foglalása</button>
     </div>
             </div>
-                <form name="booking" method="post" action="../hu#booking" class="reveal flex flex-wrap items-stretch gap-6" novalidate="novalidate" aria-label="Időpontfoglaló űrlap" data-controller="booking" data-booking-placeholder-value="Válasszon időpontot" data-demo-form-target="form" data-action="submit-&gt;demo-form#submit">
+                <form name="booking" method="post" action="../hu#booking" class="reveal flex flex-wrap items-stretch gap-6" novalidate="novalidate" aria-label="Időpontfoglaló űrlap" data-controller="booking" data-booking-placeholder-value="Válasszon időpontot" data-demo-form-target="form" data-action="submit-&gt;demo-form#submit" data-booking-relative-dates-value="true" data-booking-locale-value="hu">
                         <div class="flex min-w-0 flex-[999_1_560px] flex-col gap-[22px] rounded-[28px] border border-ink/8 bg-white p-6 sm:p-8">
                 <div class="flex flex-wrap items-center justify-between gap-3">
                     <h3 class="m-0 text-xl">A következő szabad napok</h3>
@@ -412,32 +412,32 @@
                                             <button type="button" class="day" aria-pressed="false"
                                 data-booking-target="day" data-day="20261124" data-action="booking#selectDay"
                                 >
-                            <span class="text-base font-semibold">Kedd</span>
-                            <span class="text-[13px] text-ink-muted">nov. 24. · 4 szabad időpont</span>
+                            <span class="text-base font-semibold" data-booking-weekday>Kedd</span>
+                            <span class="text-[13px] text-ink-muted"><span data-booking-date>nov. 24.</span> · 4 szabad időpont</span>
                         </button>
                                             <button type="button" class="day" aria-pressed="false"
                                 data-booking-target="day" data-day="20261125" data-action="booking#selectDay"
                                 >
-                            <span class="text-base font-semibold">Szerda</span>
-                            <span class="text-[13px] text-ink-muted">nov. 25. · 5 szabad időpont</span>
+                            <span class="text-base font-semibold" data-booking-weekday>Szerda</span>
+                            <span class="text-[13px] text-ink-muted"><span data-booking-date>nov. 25.</span> · 5 szabad időpont</span>
                         </button>
                                             <button type="button" class="day" aria-pressed="false"
                                 data-booking-target="day" data-day="20261126" data-action="booking#selectDay"
                                 >
-                            <span class="text-base font-semibold">Csütörtök</span>
-                            <span class="text-[13px] text-ink-muted">nov. 26. · 3 szabad időpont</span>
+                            <span class="text-base font-semibold" data-booking-weekday>Csütörtök</span>
+                            <span class="text-[13px] text-ink-muted"><span data-booking-date>nov. 26.</span> · 3 szabad időpont</span>
                         </button>
                                             <button type="button" class="day" aria-pressed="false"
                                 data-booking-target="day" data-day="20261127" data-action="booking#selectDay"
                                 >
-                            <span class="text-base font-semibold">Péntek</span>
-                            <span class="text-[13px] text-ink-muted">nov. 27. · 4 szabad időpont</span>
+                            <span class="text-base font-semibold" data-booking-weekday>Péntek</span>
+                            <span class="text-[13px] text-ink-muted"><span data-booking-date>nov. 27.</span> · 4 szabad időpont</span>
                         </button>
                                             <button type="button" class="day" aria-pressed="false"
                                 data-booking-target="day" data-day="20261130" data-action="booking#selectDay"
                                 >
-                            <span class="text-base font-semibold">Hétfő</span>
-                            <span class="text-[13px] text-ink-muted">nov. 30. · 3 szabad időpont</span>
+                            <span class="text-base font-semibold" data-booking-weekday>Hétfő</span>
+                            <span class="text-[13px] text-ink-muted"><span data-booking-date>nov. 30.</span> · 3 szabad időpont</span>
                         </button>
                                     </div>
 

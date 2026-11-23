@@ -12,15 +12,15 @@
             for (var i = 0; i < preferred.length; i++) {
                 var code = String(preferred[i]).slice(0, 2).toLowerCase();
                 if (supported.indexOf(code) !== -1) {
-                    location.replace(code + '/');
+                    location.replace(code + '/index.html');
                     return;
                 }
             }
-            location.replace('de/');
+            location.replace('de/index.html');
         })();
     </script>
-    <noscript><meta http-equiv="refresh" content="0; url=de/"></noscript>
+    <noscript><meta http-equiv="refresh" content="0; url=de/index.html"></noscript>
 </head>
 <body style="font-family: system-ui, sans-serif; padding: 2rem">
-            <a href="de/">DE</a> ·             <a href="en/">EN</a> ·             <a href="hu/">HU</a>    </body>
+            <a href="de/index.html">DE</a> ·             <a href="en/index.html">EN</a> ·             <a href="hu/index.html">HU</a>    </body>
 </html>
