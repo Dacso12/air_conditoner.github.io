@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>404 · KlimaService</title>
+    <script>
+        // GitHub Pages serves this file for any unknown URL, at any depth.
+        // Send the visitor to the site root: "/<repo>/" on a project site, "/" otherwise.
+        (function () {
+            var segment = location.pathname.split('/')[1];
+            var isProjectSite = /\.github\.io$/i.test(location.hostname) && segment;
+            location.replace(isProjectSite ? '/' + segment + '/' : '/');
+        })();
+    </script>
+</head>
+<body style="font-family: system-ui, sans-serif; padding: 2rem">
+    <p>404 – <a href="/">KlimaService</a></p>
+</body>
+</html>

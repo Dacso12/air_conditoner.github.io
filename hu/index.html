@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KlimaService – Klímaszerelés és karbantartás</title>
+    <meta name="description" content="Klímaszerelés, tisztítás és javítás Berlin és környékén. Kérjen árajánlatot online két perc alatt, és foglaljon időpontot.">
+
+        <meta property="og:title" content="KlimaService – Klímaszerelés és karbantartás">
+    <meta property="og:description" content="Klímaszerelés, tisztítás és javítás Berlin és környékén. Kérjen árajánlatot online két perc alatt, és foglaljon időpontot.">
+    <meta property="og:type" content="website">
+                        <link rel="alternate" hreflang="de" href="../de/index.html">
+                    <link rel="alternate" hreflang="en" href="../en/index.html">
+                        <meta property="og:locale" content="hu_HU">
+                <link rel="alternate" hreflang="hu" href="../hu/index.html">
+        <link rel="alternate" hreflang="x-default" href="../">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MiA0MiI+PHJlY3Qgd2lkdGg9IjQyIiBoZWlnaHQ9IjQyIiByeD0iMTMiIGZpbGw9IiMxNzY2RDYiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5IDkpIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgMnYyME0zLjQgN2wxNy4yIDEwTTMuNCAxN0wyMC42IDciLz48cGF0aCBkPSJNOS4yIDMuOEwxMiA2bDIuOC0yLjJNOS4yIDIwLjJMMTIgMThsMi44IDIuMk0zLjYgMTAuNmwzLjMtMS4yLS42LTMuNE0xNy43IDE4bC0uNi0zLjQgMy4zLTEuMk0yMC40IDEwLjZsLTMuMy0xLjIuNi0zLjRNNi4zIDE4bC42LTMuNC0zLjMtMS4yIi8+PC9nPjwvc3ZnPgo=">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="../build/app.d8d76d80.css">
+    
+            <script src="../build/runtime.b2e91e0f.js" defer></script><script src="../build/537.336cf854.js" defer></script><script src="../build/app.6545c61d.js" defer></script>
+    </head>
+<body>
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-white">
+    Ugrás a tartalomra
+</a>
+
+
+<header data-controller="mobile-menu"
+        class="sticky top-0 z-30 border-b border-ink/8 bg-canvas/85 backdrop-blur-[14px]">
+    <div class="mx-auto flex max-w-[1200px] flex-wrap items-center justify-between gap-x-7 gap-y-3 px-6 py-3">
+        <a href="#top" aria-label="Kezdőlap" class="flex items-center gap-3 text-ink no-underline hover:text-ink">
+            <span class="relative flex size-[42px] flex-none items-center justify-center overflow-hidden rounded-[13px] bg-accent text-white">
+    <svg class="size-6 anim-spin-slow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 2v20M3.4 7l17.2 10M3.4 17L20.6 7"/><path d="M9.2 3.8L12 6l2.8-2.2M9.2 20.2L12 18l2.8 2.2M3.6 10.6l3.3-1.2-.6-3.4M17.7 18l-.6-3.4 3.3-1.2M20.4 10.6l-3.3-1.2.6-3.4M6.3 18l.6-3.4-3.3-1.2"/></svg>
+</span>
+<span class="flex flex-col leading-[1.1]">
+    <span class="font-display text-xl font-bold tracking-tight">KlimaService</span>
+            <span class="text-[11px] font-semibold tracking-[0.09em] text-ink-muted uppercase">Szerelés · Karbantartás</span>
+    </span>
+        </a>
+
+        <button type="button" class="step-btn flex items-center justify-center xl:hidden"
+                aria-controls="site-nav" aria-expanded="false" aria-label="Menü megnyitása vagy bezárása"
+                data-mobile-menu-target="button" data-action="mobile-menu#toggle">
+            <span data-mobile-menu-target="openIcon"><svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16"/></svg></span>
+            <span data-mobile-menu-target="closeIcon" class="hidden"><svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6L6 18M6 6l12 12"/></svg></span>
+        </button>
+
+        <div id="site-nav" data-mobile-menu-target="panel"
+             class="hidden w-full flex-col gap-4 pb-4 xl:flex xl:w-auto xl:flex-1 xl:flex-row xl:items-center xl:justify-between xl:gap-7 xl:pb-0">
+            <nav aria-label="Fő menü" class="flex flex-col gap-x-6 text-[15px] font-medium xl:flex-row xl:whitespace-nowrap">
+                                    <a class="nav-link" href="#services" data-action="mobile-menu#navigate">Szolgáltatások</a>
+                                    <a class="nav-link" href="#booking" data-action="mobile-menu#navigate">Időpontfoglalás</a>
+                                    <a class="nav-link" href="#maintenance" data-action="mobile-menu#navigate">Karbantartás</a>
+                                    <a class="nav-link" href="#faq" data-action="mobile-menu#navigate">GYIK</a>
+                            </nav>
+
+            <div class="flex flex-wrap items-center gap-4 xl:flex-nowrap">
+                <nav aria-label="Nyelv választása" class="flex gap-0.5 rounded-full border border-ink/12 bg-white p-[3px]">
+                            <a class="lang " href="../de/index.html" hreflang="de" lang="de"
+           title="Deutsch" >DE</a>
+                            <a class="lang " href="../en/index.html" hreflang="en" lang="en"
+           title="English" >EN</a>
+                            <a class="lang is-active" href="../hu/index.html" hreflang="hu" lang="hu"
+           title="Magyar" aria-current="page">HU</a>
+    </nav>
+                                <a class="nav-link flex items-center gap-2 font-semibold xl:size-10 xl:justify-center xl:rounded-full xl:border xl:border-ink/12 xl:bg-white xl:after:hidden"
+                   href="tel:+49301234567" title="+49 30 1234567">
+                    <svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span class="xl:sr-only">+49 30 1234567</span>
+                </a>
+                <a class="btn btn-sm whitespace-nowrap" href="#quote" data-action="mobile-menu#navigate">Ajánlatot kérek</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main id="main">
+        
+<section id="top" class="mx-auto flex max-w-[1200px] flex-wrap items-center gap-14 px-6 pt-[72px] pb-16">
+    <div class="flex min-w-0 flex-[1_1_500px] flex-col items-start gap-[26px]">
+        <span class="anim-in delay-1 inline-flex items-center gap-2.5 rounded-full border border-ink/10 bg-white py-2 pr-4 pl-3 text-sm font-medium text-ink-subtle">
+            <span class="relative size-2.5 rounded-full bg-success text-success"><span class="anim-ping"></span></span>
+            Berlin és környéke · Klímavédelmi engedéllyel
+        </span>
+
+        <h1 class="m-0 text-[clamp(44px,6.2vw,78px)] leading-none font-bold tracking-[-0.035em]">
+            <span class="anim-word delay-1">Klímaszerelés</span>
+            <span class="anim-word delay-2">egyszerűen,</span><br>
+            <span class="anim-word delay-3">pár kattintással</span>
+            <span class="anim-highlight">online.</span>
+        </h1>
+
+        <p class="anim-in delay-4 m-0 max-w-[540px] text-[19px] leading-relaxed text-ink-soft">Kérjen árajánlatot két perc alatt, foglaljon időpontot, amikor Önnek kényelmes – a karbantartás esedékességére pedig mi figyelünk, évről évre.</p>
+
+        <div class="anim-in delay-5 flex flex-wrap gap-3">
+            <a class="btn" href="#quote">Ajánlatot kérek <span class="arr" aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="#booking">Időpontot foglalok</a>
+        </div>
+
+        <ul class="anim-in delay-6 mt-2 flex list-none flex-wrap gap-x-[26px] gap-y-3 p-0 text-[15px] font-medium text-ink-subtle">
+                            <li class="flex items-center gap-2">
+                    <span class="text-accent"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg></span>
+                    Garanciális telepítés
+                </li>
+                            <li class="flex items-center gap-2">
+                    <span class="text-accent"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg></span>
+                    10 év tapasztalat
+                </li>
+                            <li class="flex items-center gap-2">
+                    <span class="text-accent"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg></span>
+                    Átlátható, előre közölt ár
+                </li>
+                    </ul>
+    </div>
+
+        <div class="anim-in delay-3 dots relative h-[520px] min-w-0 flex-[1_1_440px] overflow-hidden rounded-5xl border border-ink/6 bg-accent-tint" aria-hidden="true">
+        <div class="absolute inset-x-[11%] top-16 h-[124px] rounded-3xl bg-white shadow-[0_26px_50px_-24px_rgba(14,27,38,0.35),inset_0_-3px_0_rgba(14,27,38,0.05)]">
+            <div class="absolute top-[22px] left-[26px] flex items-baseline gap-1.5 font-display text-ink">
+                <span class="text-[28px] font-semibold tracking-tight">22,0</span>
+                <span class="text-sm text-ink-muted">°C</span>
+            </div>
+            <div class="absolute top-[62px] left-[26px] text-xs font-medium text-ink-muted">Hűtés · Csendes mód</div>
+            <div class="absolute top-7 right-[26px] size-[9px] rounded-full bg-success text-success"><span class="anim-ping"></span></div>
+            <div class="absolute inset-x-5 bottom-[26px] h-2 rounded-md bg-[#EDF1F4]"></div>
+            <div class="anim-flap absolute inset-x-5 bottom-[13px] h-[5px] rounded bg-[#D3DCE3]"></div>
+        </div>
+
+        <svg viewBox="0 0 400 200" preserveAspectRatio="none" class="absolute top-[196px] left-[11%] h-[200px] w-[78%]">
+            <path class="anim-flow" d="M50 0 C 30 40, 70 80, 40 120 S 30 170, 55 200"/>
+            <path class="anim-flow anim-flow-2" d="M120 0 C 100 45, 140 85, 110 125 S 100 170, 125 200"/>
+            <path class="anim-flow" d="M200 0 C 180 40, 220 80, 190 120 S 180 170, 205 200"/>
+            <path class="anim-flow anim-flow-3" d="M280 0 C 260 45, 300 85, 270 125 S 260 170, 285 200"/>
+            <path class="anim-flow anim-flow-2" d="M350 0 C 330 40, 370 80, 340 120 S 330 170, 355 200"/>
+        </svg>
+
+        <div class="anim-in delay-6 absolute top-[236px] left-[5%]">
+            <div class="anim-float float-card">
+                <span class="flex size-10 items-center justify-center rounded-xl bg-accent-tint-2 text-accent"><svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h4"/></svg></span>
+                <span class="flex flex-col leading-tight">
+                    <span class="text-sm font-semibold">Ajánlatkérés elküldve</span>
+                    <span class="text-xs text-ink-muted">65 m² · 3 helyiség · 2 fotó</span>
+                </span>
+            </div>
+        </div>
+        <div class="anim-in delay-7 absolute top-[322px] right-[4%]">
+            <div class="anim-float anim-float-2 float-card">
+                <span class="flex size-10 items-center justify-center rounded-xl bg-success-tint text-success-strong"><svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M9 16l2 2 4-4"/></svg></span>
+                <span class="flex flex-col leading-tight">
+                    <span class="text-sm font-semibold">Időpont lefoglalva</span>
+                    <span class="text-xs text-ink-muted">Kedd, 10:00 · emlékeztetővel</span>
+                </span>
+            </div>
+        </div>
+        <div class="anim-in delay-8 absolute bottom-[22px] left-[9%]">
+            <div class="anim-float anim-float-3 float-card bg-ink! text-white">
+                <span class="flex size-10 items-center justify-center rounded-xl bg-white/12 text-white"><svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
+                <span class="flex flex-col leading-tight">
+                    <span class="text-sm font-semibold">Esedékes az éves tisztítás</span>
+                    <span class="text-xs text-white/75">Automatikus emlékeztető</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<div class="marquee-wrap overflow-hidden bg-ink py-5 text-white">
+    <div class="anim-marquee flex w-max">
+                            <div class="flex items-center gap-11 pr-11 font-display text-xl font-medium whitespace-nowrap" >
+                                    <span>Split klíma</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Multi split rendszerek</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Hőszivattyú</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Tisztítás és fertőtlenítés</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Hibaelhárítás</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Szivárgásvizsgálat</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Helyszíni felmérés</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                            </div>
+                    <div class="flex items-center gap-11 pr-11 font-display text-xl font-medium whitespace-nowrap" aria-hidden="true">
+                                    <span>Split klíma</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Multi split rendszerek</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Hőszivattyú</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Tisztítás és fertőtlenítés</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Hibaelhárítás</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Szivárgásvizsgálat</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                                    <span>Helyszíni felmérés</span><span class="text-accent-light" aria-hidden="true">✳</span>
+                            </div>
+            </div>
+</div>
+    
+<section id="services" class="mx-auto max-w-[1200px] px-6 pt-28 pb-14">
+    <div class="reveal flex flex-wrap items-end justify-between gap-6 mb-12">
+    <div class="flex max-w-[680px] flex-col gap-3.5">
+        <span class="eyebrow ">Szolgáltatások</span>
+        <h2 class="section-title">Minden, ami a klímához kell – egy kézből.</h2>
+    </div>
+            <p class="m-0 max-w-[400px] text-[17px] text-ink-soft">Telepítéstől az éves karbantartásig. Helyi, képesített csapat, amely elsőre is alapos munkát végez.</p>
+    </div>
+
+    <div class="flex flex-wrap gap-5">
+                    <article class="reveal flex min-w-0 flex-[1_1_260px]">
+                <div class="card">
+                    <span class="ico"><svg class="size-[26px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="4" width="20" height="8" rx="2"/><path d="M6 9h12M7 16c0 2-1 3-1 4M12 16v4M17 16c0 2 1 3 1 4"/></svg></span>
+                    <h3 class="m-0 text-[22px] tracking-tight">Klímatelepítés</h3>
+                    <p class="m-0 flex-1 text-ink-soft">Felmérés, szakszerű beépítés, beüzemelés és betanítás – lakásba, házba, irodába.</p>
+                    <a href="#quote" class="font-semibold no-underline">Ajánlatot kérek →</a>
+                </div>
+            </article>
+                    <article class="reveal flex min-w-0 flex-[1_1_260px]">
+                <div class="card">
+                    <span class="ico"><svg class="size-[26px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></span>
+                    <h3 class="m-0 text-[22px] tracking-tight">Tisztítás és karbantartás</h3>
+                    <p class="m-0 flex-1 text-ink-soft">Fertőtlenítés, szűrőtisztítás, működésellenőrzés – tisztább levegő, hatékonyabb működés.</p>
+                    <a href="#booking" class="font-semibold no-underline">Időpontot foglalok →</a>
+                </div>
+            </article>
+                    <article class="reveal flex min-w-0 flex-[1_1_260px]">
+                <div class="card">
+                    <span class="ico"><svg class="size-[26px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></svg></span>
+                    <h3 class="m-0 text-[22px] tracking-tight">Hibaelhárítás</h3>
+                    <p class="m-0 flex-1 text-ink-soft">Nem hűt, csöpög, furcsa hangot ad? Gyors hibafeltárás és javítás az elterjedt márkáknál.</p>
+                    <a href="#quote" class="font-semibold no-underline">Hibát jelentek →</a>
+                </div>
+            </article>
+                    <article class="reveal flex min-w-0 flex-[1_1_260px]">
+                <div class="card">
+                    <span class="ico"><svg class="size-[26px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M12 10c1.5 1.6 2 2.8 2 3.8a2 2 0 0 1-4 0c0-1 .5-2.2 2-3.8z"/></svg></span>
+                    <h3 class="m-0 text-[22px] tracking-tight">Hőszivattyú</h3>
+                    <p class="m-0 flex-1 text-ink-soft">Hatékony fűtés és hűtés egy rendszerrel – tervezéssel, telepítéssel, szervizzel.</p>
+                    <a href="#quote" class="font-semibold no-underline">Érdekel →</a>
+                </div>
+            </article>
+            </div>
+</section>
+    <section class="mx-auto max-w-[1200px] px-6 pt-14 pb-28">
+    <div class="reveal flex flex-wrap items-end justify-between gap-6 mb-11">
+    <div class="flex max-w-[680px] flex-col gap-3.5">
+        <span class="eyebrow ">Hogyan működik?</span>
+        <h2 class="section-title">Három lépés, és már hűsít is.</h2>
+    </div>
+    </div>
+
+    <ol class="m-0 flex list-none flex-wrap gap-5 p-0">
+                    <li class="reveal relative flex min-w-0 flex-[1_1_300px] flex-col gap-3.5 overflow-hidden rounded-3xl border border-ink/8 bg-white p-8">
+                <span class="anim-grow absolute inset-x-0 top-0 h-1 bg-accent"></span>
+                <span class="font-display text-[56px] leading-none font-bold tracking-[-0.04em] text-accent">01</span>
+                <h3 class="m-0 text-[22px]">Ajánlatkérés online</h3>
+                <p class="m-0 text-ink-soft">Megadja a lakás méretét, a helyiségek számát, és feltölt egy fotót a helyszínről. Ennyi.</p>
+            </li>
+                    <li class="reveal relative flex min-w-0 flex-[1_1_300px] flex-col gap-3.5 overflow-hidden rounded-3xl border border-ink/8 bg-white p-8">
+                <span class="anim-grow absolute inset-x-0 top-0 h-1 bg-accent"></span>
+                <span class="font-display text-[56px] leading-none font-bold tracking-[-0.04em] text-accent">02</span>
+                <h3 class="m-0 text-[22px]">Jóváhagyott ajánlat</h3>
+                <p class="m-0 text-ink-soft">Szakemberünk átnézi az adatokat, és elküldi a pontos, tételes árajánlatot e-mailben.</p>
+            </li>
+                    <li class="reveal relative flex min-w-0 flex-[1_1_300px] flex-col gap-3.5 overflow-hidden rounded-3xl border border-ink/8 bg-white p-8">
+                <span class="anim-grow absolute inset-x-0 top-0 h-1 bg-accent"></span>
+                <span class="font-display text-[56px] leading-none font-bold tracking-[-0.04em] text-accent">03</span>
+                <h3 class="m-0 text-[22px]">Időpont és telepítés</h3>
+                <p class="m-0 text-ink-soft">Ön választ időpontot a naptárból, mi pedig előtte automatikusan emlékeztetjük.</p>
+            </li>
+            </ol>
+</section>
+        
+<section id="quote" class="border-y border-ink/6 bg-white">
+    <div class="mx-auto flex max-w-[1200px] flex-wrap items-start gap-14 px-6 py-28">
+        <div class="reveal flex min-w-0 flex-[1_1_360px] flex-col gap-5">
+            <span class="eyebrow">Online ajánlatkérés</span>
+            <h2 class="section-title">Árajánlat két perc alatt, telefonálás nélkül.</h2>
+            <p class="m-0 text-[17px] text-ink-soft">Töltse ki az űrlapot, amikor Önnek kényelmes – akár este a kanapéról. Mi átnézzük, és jóváhagyás után küldjük a pontos ajánlatot.</p>
+            <ul class="mt-2 flex list-none flex-col gap-3.5 p-0">
+                                    <li class="flex items-start gap-3.5">
+    <span class="flex size-8 flex-none items-center justify-center rounded-[10px] bg-accent-tint-2 text-accent"><svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg></span>
+    <span><strong>Nem kell visszahívásra várni</strong><br><span class="text-ink-soft">Minden adat egy helyen, elsőre.</span></span>
+</li>
+                                    <li class="flex items-start gap-3.5">
+    <span class="flex size-8 flex-none items-center justify-center rounded-[10px] bg-accent-tint-2 text-accent"><svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg></span>
+    <span><strong>Fotó alapján pontosabb ár</strong><br><span class="text-ink-soft">A legtöbb esetben külön felmérés sem kell.</span></span>
+</li>
+                                    <li class="flex items-start gap-3.5">
+    <span class="flex size-8 flex-none items-center justify-center rounded-[10px] bg-accent-tint-2 text-accent"><svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg></span>
+    <span><strong>Kötelezettség nélkül</strong><br><span class="text-ink-soft">Az ajánlatkérés ingyenes.</span></span>
+</li>
+                            </ul>
+        </div>
+
+        <div class="reveal min-w-0 flex-[1_1_560px] rounded-[28px] border border-ink/8 bg-canvas p-6 sm:p-9"
+             data-controller="demo-form">
+                                                <div hidden data-demo-form-target="success">
+                        
+<div class="flex flex-col items-start gap-[18px] px-1 py-6" role="status">
+    <span class="flex size-16 items-center justify-center rounded-[20px] bg-success-tint text-success-strong"><svg class="size-[30px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg></span>
+    <h3 class="m-0 text-[28px] tracking-tight" tabindex="-1" data-demo-form-target="heading">Köszönjük, megkaptuk!</h3>
+    <p class="m-0 max-w-[460px] text-ink-soft">
+        Átnézzük az adatokat (<span data-demo-form-target="type"></span>, <span data-demo-form-target="rooms"></span> helyiség), és hamarosan küldjük a jóváhagyott árajánlatot. Közben akár időpontot is foglalhat.
+    </p>
+    <div class="flex flex-wrap gap-3">
+        <a class="btn" href="#booking">Időpontot foglalok</a>
+                    <button type="button" class="btn btn-ghost" data-action="demo-form#reset">Új ajánlatkérés</button>
+            </div>
+</div>
+                    </div>
+                                <form name="quote_request" method="post" action="../hu#quote" class="flex flex-col gap-6" novalidate="novalidate" aria-label="Ajánlatkérő űrlap" data-demo-form-target="form" data-action="submit-&gt;demo-form#submit" enctype="multipart/form-data">
+                    
+
+                                        <fieldset class="m-0 flex flex-col gap-3 border-0 p-0">
+                        <legend class="mb-3 p-0 text-sm font-semibold">Ingatlan típusa</legend>
+                        <div class="flex flex-wrap gap-2.5">
+                                                            <label>
+                                    <input type="radio" id="quote_request_propertyType_0" name="quote_request[propertyType]" required="required" class="sr-only" value="apartment" checked="checked" />
+                                    <span class="chip">Lakás</span>
+                                </label>
+                                                            <label>
+                                    <input type="radio" id="quote_request_propertyType_1" name="quote_request[propertyType]" required="required" class="sr-only" value="house" />
+                                    <span class="chip">Családi ház</span>
+                                </label>
+                                                            <label>
+                                    <input type="radio" id="quote_request_propertyType_2" name="quote_request[propertyType]" required="required" class="sr-only" value="office" />
+                                    <span class="chip">Iroda / üzlet</span>
+                                </label>
+                                                    </div>
+                        
+                    </fieldset>
+
+                    <div class="flex flex-wrap gap-5">
+                        <div class="field flex-[1_1_200px]"><label for="quote_request_area" class="required">Alapterület (m²)</label><input type="number" id="quote_request_area" name="quote_request[area]" required="required" min="10" max="10000" inputmode="numeric" placeholder="pl. 65" class="inp" /></div>
+
+                        <div class="field flex-[1_1_200px]" data-controller="stepper">
+                            <label for="quote_request_rooms" class="required">Klimatizálandó helyiségek</label>
+                            <div class="flex min-h-[50px] items-center gap-2.5">
+                                <button type="button" class="step-btn" data-action="stepper#decrement" aria-label="Kevesebb helyiség">−</button>
+                                <input type="number" id="quote_request_rooms" name="quote_request[rooms]" required="required" min="1" max="12" inputmode="numeric" class="inp max-w-24 text-center font-display text-2xl font-semibold" data-stepper-target="input" value="2" />
+                                <button type="button" class="step-btn" data-action="stepper#increment" aria-label="Több helyiség">+</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                                        <div class="field" data-controller="file-drop"
+                         data-file-drop-max-value="5"
+                         data-file-drop-too-many-value="Legfeljebb 5 fotót válasszon ki.">
+                        <span>Fotó a helyszínről</span>
+                        <input type="file" id="quote_request_photos" name="quote_request[photos][]" accept="image/jpeg,image/png,image/webp,image/heic,image/heif" multiple="multiple" class="peer sr-only" data-file-drop-target="input" data-action="change-&gt;file-drop#render" />
+                        <label class="drop peer-focus-visible:outline-2 peer-focus-visible:outline-accent" for="quote_request_photos"
+                               data-file-drop-target="zone"
+                               data-action="dragover->file-drop#dragover dragleave->file-drop#dragleave drop->file-drop#drop">
+                            <span class="flex size-12 flex-none items-center justify-center rounded-[14px] border border-ink/8 bg-white text-accent"><svg class="size-[22px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span>
+                            <span class="flex flex-col leading-snug">
+                                <span class="font-semibold text-ink">Kattintson, vagy húzza ide a fotókat</span>
+                                <span class="text-[13px] text-ink-muted">A falról, ahová a beltéri egység kerülne, és a kültéri helyről – legfeljebb 5 kép (JPG, PNG, WebP, HEIC)</span>
+                            </span>
+                        </label>
+                        <ul data-file-drop-target="list" class="m-0 flex list-none flex-col gap-1 p-0 text-sm font-normal" aria-live="polite"></ul>
+                        
+                    </div>
+
+                    <div class="flex flex-wrap gap-5">
+                        <div class="field flex-[1_1_220px]"><label for="quote_request_name" class="required">Név</label><input type="text" id="quote_request_name" name="quote_request[name]" required="required" autocomplete="name" placeholder="Teljes név" maxlength="100" class="inp" /></div>
+                        <div class="field flex-[1_1_220px]"><label for="quote_request_phone" class="required">Telefonszám</label><input type="tel" id="quote_request_phone" name="quote_request[phone]" required="required" autocomplete="tel" placeholder="+36 …" maxlength="20" pattern="\+?[0-9 \(\)\/\-]{6,20}" class="inp" /></div>
+                    </div>
+                    <div class="field "><label for="quote_request_email">E-mail cím (nem kötelező)</label><input type="email" id="quote_request_email" name="quote_request[email]" autocomplete="email" placeholder="nev@pelda.hu" maxlength="180" class="inp" /></div>
+                    <div class="field "><label for="quote_request_message">Megjegyzés (nem kötelező)</label><textarea id="quote_request_message" name="quote_request[message]" rows="3" placeholder="Pl. kültéri egység helye, sürgősség, kérdések…" maxlength="2000" class="inp"></textarea></div>
+                    <div class="sr-only" aria-hidden="true">
+        <label for="quote_request_website">Website</label><input type="text" id="quote_request_website" name="quote_request[website]" tabindex="-1" autocomplete="off" class="inp" /></div>
+
+                    <div class="flex flex-wrap items-center justify-between gap-4">
+                        <span class="max-w-[320px] text-[13px] text-ink-muted">Jóváhagyás után küldjük az ajánlatot, jellemzően 2 munkanapon belül.</span>
+                        <button type="submit" class="btn">Ajánlatkérés elküldése <span class="arr" aria-hidden="true">→</span></button>
+                    </div>
+                <input type="hidden" id="quote_request__token" name="quote_request[_token]" data-controller="csrf-protection" value="csrf-token" /></form>
+                    </div>
+    </div>
+</section>
+        
+<section id="booking" class="mx-auto max-w-[1200px] px-6 py-28">
+    <div class="reveal flex flex-wrap items-end justify-between gap-6 mb-10">
+    <div class="flex max-w-[680px] flex-col gap-3.5">
+        <span class="eyebrow ">Időpontfoglalás</span>
+        <h2 class="section-title">Válasszon időpontot, mi emlékeztetjük.</h2>
+    </div>
+            <p class="m-0 max-w-[400px] text-[17px] text-ink-soft">Csak a valóban szabad időpontok látszanak – nincs egyeztetés oda-vissza.</p>
+    </div>
+
+                    <div data-controller="demo-form">
+            <div hidden data-demo-form-target="success">
+                
+<div class="reveal flex flex-wrap items-center gap-5 rounded-[28px] bg-ink p-8 text-white" role="status">
+    <span class="flex size-14 flex-none items-center justify-center rounded-full bg-success"><svg class="size-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg></span>
+    <div class="flex min-w-0 flex-1 flex-col gap-1">
+        <strong class="font-display text-2xl" tabindex="-1" data-demo-form-target="heading">Foglalás rögzítve.</strong>
+        <span class="text-white/80">
+            <span data-demo-form-target="day"></span>, <span data-demo-form-target="time"></span> – a visszaigazolást e-mailben elküldtük.
+        </span>
+    </div>
+            <button type="button" class="btn btn-light" data-action="demo-form#reset">Újabb időpont foglalása</button>
+    </div>
+            </div>
+                <form name="booking" method="post" action="../hu#booking" class="reveal flex flex-wrap items-stretch gap-6" novalidate="novalidate" aria-label="Időpontfoglaló űrlap" data-controller="booking" data-booking-placeholder-value="Válasszon időpontot" data-demo-form-target="form" data-action="submit-&gt;demo-form#submit">
+                        <div class="flex min-w-0 flex-[999_1_560px] flex-col gap-[22px] rounded-[28px] border border-ink/8 bg-white p-6 sm:p-8">
+                <div class="flex flex-wrap items-center justify-between gap-3">
+                    <h3 class="m-0 text-xl">A következő szabad napok</h3>
+                    <span class="text-sm text-ink-muted">Kiszállás: Berlin és 30 km-es körzete</span>
+                </div>
+
+                
+                
+
+                <div role="group" aria-label="Nap kiválasztása" class="flex flex-wrap gap-2.5">
+                                            <button type="button" class="day" aria-pressed="false"
+                                data-booking-target="day" data-day="20261124" data-action="booking#selectDay"
+                                >
+                            <span class="text-base font-semibold">Kedd</span>
+                            <span class="text-[13px] text-ink-muted">nov. 24. · 4 szabad időpont</span>
+                        </button>
+                                            <button type="button" class="day" aria-pressed="false"
+                                data-booking-target="day" data-day="20261125" data-action="booking#selectDay"
+                                >
+                            <span class="text-base font-semibold">Szerda</span>
+                            <span class="text-[13px] text-ink-muted">nov. 25. · 5 szabad időpont</span>
+                        </button>
+                                            <button type="button" class="day" aria-pressed="false"
+                                data-booking-target="day" data-day="20261126" data-action="booking#selectDay"
+                                >
+                            <span class="text-base font-semibold">Csütörtök</span>
+                            <span class="text-[13px] text-ink-muted">nov. 26. · 3 szabad időpont</span>
+                        </button>
+                                            <button type="button" class="day" aria-pressed="false"
+                                data-booking-target="day" data-day="20261127" data-action="booking#selectDay"
+                                >
+                            <span class="text-base font-semibold">Péntek</span>
+                            <span class="text-[13px] text-ink-muted">nov. 27. · 4 szabad időpont</span>
+                        </button>
+                                            <button type="button" class="day" aria-pressed="false"
+                                data-booking-target="day" data-day="20261130" data-action="booking#selectDay"
+                                >
+                            <span class="text-base font-semibold">Hétfő</span>
+                            <span class="text-[13px] text-ink-muted">nov. 30. · 3 szabad időpont</span>
+                        </button>
+                                    </div>
+
+                                                        <div role="group" aria-labelledby="day-20261124" data-booking-target="group" data-day="20261124">
+                        <h4 id="day-20261124" data-booking-target="heading" class="mt-0 mb-2 text-sm font-semibold">
+                            2026. november 24., kedd
+                        </h4>
+                        <div class="grid grid-cols-[repeat(auto-fill,minmax(120px,1fr))] gap-2.5">
+                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611240800" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Kedd, 08:00" data-day-label="november 24., kedd" data-time="08:00" value="202611240800" />
+                                        <span class="slot"><span>08:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611241000" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Kedd, 10:00" data-day-label="november 24., kedd" data-time="10:00" value="202611241000" />
+                                        <span class="slot"><span>10:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611241200" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Kedd, 12:00" data-day-label="november 24., kedd" data-time="12:00" value="202611241200" />
+                                        <span class="slot"><span>12:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <span class="slot is-taken" aria-disabled="true">
+                                        <span>14:00</span><span class="slot-note">foglalt</span>
+                                    </span>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611241600" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Kedd, 16:00" data-day-label="november 24., kedd" data-time="16:00" value="202611241600" />
+                                        <span class="slot"><span>16:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                    </div>
+                    </div>
+                                                        <div role="group" aria-labelledby="day-20261125" data-booking-target="group" data-day="20261125">
+                        <h4 id="day-20261125" data-booking-target="heading" class="mt-0 mb-2 text-sm font-semibold">
+                            2026. november 25., szerda
+                        </h4>
+                        <div class="grid grid-cols-[repeat(auto-fill,minmax(120px,1fr))] gap-2.5">
+                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611250800" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Szerda, 08:00" data-day-label="november 25., szerda" data-time="08:00" value="202611250800" />
+                                        <span class="slot"><span>08:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611251000" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Szerda, 10:00" data-day-label="november 25., szerda" data-time="10:00" value="202611251000" />
+                                        <span class="slot"><span>10:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611251200" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Szerda, 12:00" data-day-label="november 25., szerda" data-time="12:00" value="202611251200" />
+                                        <span class="slot"><span>12:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611251400" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Szerda, 14:00" data-day-label="november 25., szerda" data-time="14:00" value="202611251400" />
+                                        <span class="slot"><span>14:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611251600" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Szerda, 16:00" data-day-label="november 25., szerda" data-time="16:00" value="202611251600" />
+                                        <span class="slot"><span>16:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                    </div>
+                    </div>
+                                                        <div role="group" aria-labelledby="day-20261126" data-booking-target="group" data-day="20261126">
+                        <h4 id="day-20261126" data-booking-target="heading" class="mt-0 mb-2 text-sm font-semibold">
+                            2026. november 26., csütörtök
+                        </h4>
+                        <div class="grid grid-cols-[repeat(auto-fill,minmax(120px,1fr))] gap-2.5">
+                                                                                                                                <span class="slot is-taken" aria-disabled="true">
+                                        <span>08:00</span><span class="slot-note">foglalt</span>
+                                    </span>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611261000" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Csütörtök, 10:00" data-day-label="november 26., csütörtök" data-time="10:00" value="202611261000" />
+                                        <span class="slot"><span>10:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611261200" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Csütörtök, 12:00" data-day-label="november 26., csütörtök" data-time="12:00" value="202611261200" />
+                                        <span class="slot"><span>12:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <span class="slot is-taken" aria-disabled="true">
+                                        <span>14:00</span><span class="slot-note">foglalt</span>
+                                    </span>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611261600" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Csütörtök, 16:00" data-day-label="november 26., csütörtök" data-time="16:00" value="202611261600" />
+                                        <span class="slot"><span>16:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                    </div>
+                    </div>
+                                                        <div role="group" aria-labelledby="day-20261127" data-booking-target="group" data-day="20261127">
+                        <h4 id="day-20261127" data-booking-target="heading" class="mt-0 mb-2 text-sm font-semibold">
+                            2026. november 27., péntek
+                        </h4>
+                        <div class="grid grid-cols-[repeat(auto-fill,minmax(120px,1fr))] gap-2.5">
+                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611270800" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Péntek, 08:00" data-day-label="november 27., péntek" data-time="08:00" value="202611270800" />
+                                        <span class="slot"><span>08:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <span class="slot is-taken" aria-disabled="true">
+                                        <span>10:00</span><span class="slot-note">foglalt</span>
+                                    </span>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611271200" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Péntek, 12:00" data-day-label="november 27., péntek" data-time="12:00" value="202611271200" />
+                                        <span class="slot"><span>12:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611271400" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Péntek, 14:00" data-day-label="november 27., péntek" data-time="14:00" value="202611271400" />
+                                        <span class="slot"><span>14:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611271600" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Péntek, 16:00" data-day-label="november 27., péntek" data-time="16:00" value="202611271600" />
+                                        <span class="slot"><span>16:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                    </div>
+                    </div>
+                                                        <div role="group" aria-labelledby="day-20261130" data-booking-target="group" data-day="20261130">
+                        <h4 id="day-20261130" data-booking-target="heading" class="mt-0 mb-2 text-sm font-semibold">
+                            2026. november 30., hétfő
+                        </h4>
+                        <div class="grid grid-cols-[repeat(auto-fill,minmax(120px,1fr))] gap-2.5">
+                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611300800" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Hétfő, 08:00" data-day-label="november 30., hétfő" data-time="08:00" value="202611300800" />
+                                        <span class="slot"><span>08:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611301000" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Hétfő, 10:00" data-day-label="november 30., hétfő" data-time="10:00" value="202611301000" />
+                                        <span class="slot"><span>10:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                                                                                                <span class="slot is-taken" aria-disabled="true">
+                                        <span>12:00</span><span class="slot-note">foglalt</span>
+                                    </span>
+                                                                                                                                                                <span class="slot is-taken" aria-disabled="true">
+                                        <span>14:00</span><span class="slot-note">foglalt</span>
+                                    </span>
+                                                                                                                                                                <label>
+                                        <input type="radio" id="booking_slot_s202611301600" name="booking[slot]" required="required" class="sr-only" data-action="booking#selectSlot" data-label="Hétfő, 16:00" data-day-label="november 30., hétfő" data-time="16:00" value="202611301600" />
+                                        <span class="slot"><span>16:00</span><span class="slot-note">szabad</span></span>
+                                    </label>
+                                                                                    </div>
+                    </div>
+                                            </div>
+
+                        <aside class="flex min-w-0 flex-[1_1_320px] flex-col gap-5 rounded-[28px] bg-ink p-6 text-white sm:p-8">
+                <span class="text-[13px] font-semibold tracking-widest text-accent-light uppercase">Kiválasztott időpont</span>
+                <span aria-live="polite" data-booking-target="summary" class="font-display text-[34px] leading-tight font-bold tracking-tight">
+                    Válasszon időpontot
+                </span>
+
+                <ul class="m-0 flex list-none flex-col gap-3 p-0 text-[15px] text-white/85">
+                                            <li class="flex items-center gap-2.5">
+                            <span class="text-accent-light"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+                            Emlékeztető 24 órával előtte
+                        </li>
+                                            <li class="flex items-center gap-2.5">
+                            <span class="text-accent-light"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+                            Visszaigazolás e-mailben
+                        </li>
+                                            <li class="flex items-center gap-2.5">
+                            <span class="text-accent-light"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.5 9A9 9 0 0 0 5.6 5.6L1 10m22 4l-4.6 4.4A9 9 0 0 1 3.5 15"/></svg></span>
+                            Egyszerűen módosítható
+                        </li>
+                                    </ul>
+
+                <div class="flex flex-col gap-4 border-t border-white/10 pt-5">
+                                            <div class="field text-white!"><label for="booking_name" class="required">Név</label><input type="text" id="booking_name" name="booking[name]" required="required" autocomplete="name" placeholder="Teljes név" maxlength="100" class="inp inp-dark" /></div>
+                                            <div class="field text-white!"><label for="booking_phone" class="required">Telefonszám</label><input type="tel" id="booking_phone" name="booking[phone]" required="required" autocomplete="tel" placeholder="+36 …" maxlength="20" pattern="\+?[0-9 \(\)\/\-]{6,20}" class="inp inp-dark" /></div>
+                                            <div class="field text-white!"><label for="booking_email" class="required">E-mail cím</label><input type="email" id="booking_email" name="booking[email]" required="required" autocomplete="email" placeholder="nev@pelda.hu" maxlength="180" class="inp inp-dark" /></div>
+                                        <div class="sr-only" aria-hidden="true">
+        <label for="booking_website">Website</label><input type="text" id="booking_website" name="booking[website]" tabindex="-1" autocomplete="off" class="inp" /></div>
+                </div>
+
+                <div class="flex-1"></div>
+                <button type="submit" class="btn btn-light w-full">Időpont lefoglalása <span class="arr" aria-hidden="true">→</span></button>
+            </aside>
+        <input type="hidden" id="booking__token" name="booking[_token]" data-controller="csrf-protection" value="csrf-token" /></form>
+        </div>    </section>
+    
+<section id="maintenance" class="bg-ink text-white">
+    <div class="mx-auto flex max-w-[1200px] flex-wrap items-center gap-14 px-6 py-28">
+        <div class="reveal flex min-w-0 flex-[1_1_440px] flex-col gap-5">
+            <span class="eyebrow text-accent-light!">Éves karbantartás</span>
+            <h2 class="section-title">Évente szólunk – Önnek nem kell fejben tartania.</h2>
+            <p class="m-0 max-w-[520px] text-[17px] text-white/80">A rendszer magától jelez, amikor esedékes a tisztítás. Egy üzenet, egy kattintás, és már foglalt is az időpont.</p>
+            <ul class="mt-2 flex list-none flex-wrap gap-3 p-0">
+                                    <li class="flex flex-[1_1_220px] items-center gap-3 rounded-2xl border border-white/10 bg-white/6 p-4">
+                        <span class="flex-none text-accent-light"><svg class="size-[22px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.6 4.6A2 2 0 1 1 11 8H2M12.6 19.4A2 2 0 1 0 14 16H2M17.5 8a2.5 2.5 0 1 1 2 4H2"/></svg></span>
+                        Tisztább, egészségesebb levegő
+                    </li>
+                                    <li class="flex flex-[1_1_220px] items-center gap-3 rounded-2xl border border-white/10 bg-white/6 p-4">
+                        <span class="flex-none text-accent-light"><svg class="size-[22px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13 2L3 14h9l-1 8 10-12h-9z"/></svg></span>
+                        Hatékonyabb, takarékosabb működés
+                    </li>
+                                    <li class="flex flex-[1_1_220px] items-center gap-3 rounded-2xl border border-white/10 bg-white/6 p-4">
+                        <span class="flex-none text-accent-light"><svg class="size-[22px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+                        Hosszabb élettartam
+                    </li>
+                                    <li class="flex flex-[1_1_220px] items-center gap-3 rounded-2xl border border-white/10 bg-white/6 p-4">
+                        <span class="flex-none text-accent-light"><svg class="size-[22px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+                        Megőrzött gyártói garancia
+                    </li>
+                            </ul>
+        </div>
+
+        <div class="reveal flex min-w-0 flex-[1_1_440px] flex-col gap-5">
+                        <div class="flex flex-col gap-[22px] rounded-[28px] border border-white/10 bg-white/5 p-7">
+                <span class="text-[13px] font-semibold text-white/75">Így működik egy év alatt</span>
+                <div class="relative h-1.5 rounded-md bg-white/12">
+                    <span class="anim-grow absolute inset-0 rounded-md bg-accent-light"></span>
+                </div>
+                <div class="flex flex-wrap justify-between gap-3">
+                                            <div class="flex flex-[1_1_120px] flex-col gap-1">
+                            <span class="font-display text-lg font-bold">0. hónap</span>
+                            <span class="text-sm text-white/75">Telepítés, beüzemelés</span>
+                        </div>
+                                            <div class="flex flex-[1_1_120px] flex-col gap-1">
+                            <span class="font-display text-lg font-bold">11. hónap</span>
+                            <span class="text-sm text-white/75">Automatikus emlékeztető</span>
+                        </div>
+                                            <div class="flex flex-[1_1_120px] flex-col gap-1">
+                            <span class="font-display text-lg font-bold">12. hónap</span>
+                            <span class="text-sm text-white/75">Tisztítás, fertőtlenítés</span>
+                        </div>
+                                    </div>
+            </div>
+
+                        <div class="flex flex-col gap-4 rounded-[28px] bg-white p-7 text-ink shadow-[0_30px_60px_-30px_rgba(0,0,0,0.6)]">
+                <div class="flex items-center justify-between gap-3">
+                    <span class="text-[13px] font-semibold text-ink-muted">Példa: automatikus emlékeztető üzenet</span>
+                    <span class="typing inline-flex gap-1 rounded-full bg-accent px-2.5 py-2" aria-hidden="true"><span></span><span></span><span></span></span>
+                </div>
+                <p class="m-0 rounded-[20px_20px_20px_6px] bg-mist px-5 py-[18px] text-base leading-relaxed">
+                    Kedves Kovács Anna! Egy éve telepítettük klímáját, esedékes az éves tisztítás. Foglaljon időpontot egy kattintással az alábbi linken. Üdvözlettel: KlimaService
+                </p>
+                <a class="btn self-start" href="#booking">Időpontot foglalok <span class="arr" aria-hidden="true">→</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<section id="faq" class="mx-auto max-w-[920px] px-6 py-28">
+    <div class="reveal flex flex-wrap items-end justify-between gap-6 mb-6">
+    <div class="flex max-w-[680px] flex-col gap-3.5">
+        <span class="eyebrow ">Gyakori kérdések</span>
+        <h2 class="section-title">Amit érdemes tudni</h2>
+    </div>
+    </div>
+
+        <div class="reveal border-t border-ink/12">
+                    <details name="faq" class="faq-item border-b border-ink/12" open>
+                <summary>
+                    Mennyi ideig tart egy klíma telepítése?
+                    <span class="chev" aria-hidden="true"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></span>
+                </summary>
+                <p class="faq-answer m-0 pr-14 pb-[26px] text-base text-ink-soft">Egy átlagos lakásban jellemzően 3–5 óra. A pontos időtartamot az árajánlatban előre jelezzük.</p>
+            </details>
+                    <details name="faq" class="faq-item border-b border-ink/12" >
+                <summary>
+                    Milyen gyakran kell tisztítani a klímát?
+                    <span class="chev" aria-hidden="true"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></span>
+                </summary>
+                <p class="faq-answer m-0 pr-14 pb-[26px] text-base text-ink-soft">Évente legalább egyszer javasolt; sok gyártó a garancia feltételeként is előírja. Mi szólunk, amikor esedékes.</p>
+            </details>
+                    <details name="faq" class="faq-item border-b border-ink/12" >
+                <summary>
+                    Szükség van helyszíni felmérésre?
+                    <span class="chev" aria-hidden="true"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></span>
+                </summary>
+                <p class="faq-answer m-0 pr-14 pb-[26px] text-base text-ink-soft">A legtöbb esetben a megadott adatok és fotók alapján pontos ajánlatot tudunk adni. Ha mégis szükséges, egyeztetünk egy rövid felmérést.</p>
+            </details>
+                    <details name="faq" class="faq-item border-b border-ink/12" >
+                <summary>
+                    Milyen márkákkal dolgoznak?
+                    <span class="chev" aria-hidden="true"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></span>
+                </summary>
+                <p class="faq-answer m-0 pr-14 pb-[26px] text-base text-ink-soft">Az elterjedt split és multi split klímák, valamint hőszivattyúk telepítését és szervizelését is vállaljuk. Kérjen ajánlatot!</p>
+            </details>
+                    <details name="faq" class="faq-item border-b border-ink/12" >
+                <summary>
+                    Hogyan lehet fizetni?
+                    <span class="chev" aria-hidden="true"><svg class="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></span>
+                </summary>
+                <p class="faq-answer m-0 pr-14 pb-[26px] text-base text-ink-soft">Készpénzzel, bankkártyával vagy átutalással. A számlát a munka elvégzése után állítjuk ki.</p>
+            </details>
+            </div>
+</section>
+    <section class="mx-auto max-w-[1200px] px-6 pb-28">
+    <div class="reveal dots-light relative flex flex-wrap items-center justify-between gap-8 overflow-hidden rounded-5xl bg-accent px-8 py-14 text-white sm:px-14 sm:py-[72px]">
+        <div class="flex max-w-[640px] flex-col gap-3.5">
+            <h2 class="m-0 text-[clamp(32px,4vw,50px)] leading-[1.06] font-bold tracking-[-0.03em]">Kérjen ajánlatot még ma – két perc az egész.</h2>
+            <p class="m-0 text-[17px] text-white/90">Vagy hívjon minket munkanapokon 8:00 és 17:00 között.</p>
+        </div>
+        <div class="flex flex-wrap gap-3">
+            <a class="btn btn-light" href="#quote">Ajánlatot kérek <span class="arr" aria-hidden="true">→</span></a>
+            <a class="btn btn-line" href="tel:+49301234567">+49 30 1234567</a>
+        </div>
+    </div>
+</section>
+</main>
+
+
+<footer class="border-t border-ink/8 bg-white">
+    <div class="mx-auto flex max-w-[1200px] flex-col gap-12 px-6 pt-16 pb-8">
+        <div class="flex flex-wrap gap-10">
+            <div class="flex flex-[2_1_280px] flex-col gap-4">
+                <span class="flex items-center gap-3">
+                    <span class="relative flex size-[42px] flex-none items-center justify-center overflow-hidden rounded-[13px] bg-accent text-white">
+    <svg class="size-6 anim-spin-slow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 2v20M3.4 7l17.2 10M3.4 17L20.6 7"/><path d="M9.2 3.8L12 6l2.8-2.2M9.2 20.2L12 18l2.8 2.2M3.6 10.6l3.3-1.2-.6-3.4M17.7 18l-.6-3.4 3.3-1.2M20.4 10.6l-3.3-1.2.6-3.4M6.3 18l.6-3.4-3.3-1.2"/></svg>
+</span>
+<span class="flex flex-col leading-[1.1]">
+    <span class="font-display text-xl font-bold tracking-tight">KlimaService</span>
+    </span>
+                </span>
+                <p class="m-0 max-w-[320px] text-ink-soft">Klímatelepítés, karbantartás és hibaelhárítás Berlin és környékén.</p>
+                <span class="text-[13px] text-ink-muted">Klímavédelmi engedély száma: DE-0000-0000</span>
+            </div>
+
+            <div class="flex flex-[1_1_180px] flex-col gap-2.5">
+                <h3 class="mt-0 mb-1.5 text-[15px] font-bold">Elérhetőség</h3>
+                <a href="tel:+49301234567" class="text-ink-soft no-underline">+49 30 1234567</a>
+                <a href="mailto:info@example.com" class="text-ink-soft no-underline">info@example.com</a>
+                <span class="text-ink-soft">Musterstraße 1, 10115 Berlin</span>
+            </div>
+
+            <div class="flex flex-[1_1_180px] flex-col gap-2.5">
+                <h3 class="mt-0 mb-1.5 text-[15px] font-bold">Nyitvatartás</h3>
+                <span class="text-ink-soft">Hétfő–Péntek: 8:00–17:00</span>
+                <span class="text-ink-soft">Szombat: előzetes egyeztetéssel</span>
+                <span class="text-ink-soft">Online foglalás: 0–24</span>
+            </div>
+
+            <div class="flex flex-[1_1_180px] flex-col gap-2.5">
+                <h3 class="mt-0 mb-1.5 text-[15px] font-bold">Menü</h3>
+                                    <a href="#services" class="text-ink-soft no-underline">Szolgáltatások</a>
+                                    <a href="#quote" class="text-ink-soft no-underline">Ajánlatkérés</a>
+                                    <a href="#booking" class="text-ink-soft no-underline">Időpontfoglalás</a>
+                                    <a href="#maintenance" class="text-ink-soft no-underline">Karbantartás</a>
+                            </div>
+        </div>
+
+        <div class="flex flex-wrap justify-between gap-3 border-t border-ink/8 pt-6 text-[13px] text-ink-muted">
+            <span>© 2026 KlimaService. Minden jog fenntartva.</span>
+            <span class="flex flex-wrap gap-5">
+                <a href="#" class="text-ink-muted">Adatkezelési tájékoztató</a>
+                <a href="#" class="text-ink-muted">Impresszum</a>
+                <a href="#top" class="text-ink-muted">Vissza az elejére ↑</a>
+            </span>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
